@@ -39,16 +39,6 @@ private:
     __doaml(complex *ths, const complex &r);
 };
 
-inline double
-real(const complex &x) {
-    return x.real();
-}
-
-inline double
-imag(const complex &x) {
-    return x.imag();
-}
-
 inline complex &
 __doapl(complex *ths, const complex &r) {
     ths->re += r.re;
@@ -83,6 +73,16 @@ __doaml(complex *ths, const complex &r) {
 inline complex &
 complex::operator*=(const complex &r) {
     return __doaml(this, r);
+}
+
+inline double
+real(const complex &x) {
+    return x.real();
+}
+
+inline double
+imag(const complex &x) {
+    return x.imag();
 }
 
 inline complex
