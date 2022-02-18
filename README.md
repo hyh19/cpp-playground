@@ -11,3 +11,7 @@
 `2. Introduction to Arrays`
 
 - [What is an Array?](https://www.educative.io/courses/data-structures-coding-interviews-cpp/JYlGlXpOP62)
+
+## cppreference.com
+
+<https://en.cppreference.com/w/cpp/algorithm/swap>
