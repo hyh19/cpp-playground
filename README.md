@@ -6,6 +6,10 @@
 
 [List.h](https://github.com/mrhuangyuhui/dsaa-cpp4/blob/master/List.h)
 
+## C++ 程序设计（原书第 3 版）
+
+[RationalWithOperators](https://github.com/mrhuangyuhui/liang-cpp3e/tree/master/14/RationalWithOperators)
+
 ## Data Structures for Coding Interviews in C++
 
 `2. Introduction to Arrays`
